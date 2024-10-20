@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ano ang AIDs?</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #edd9cc;
+            --secondary-color: #b8a597;
+            --background-color: #9e122c;
+            --text-color: #2c3e50;
+            --accent-color: #c82732;
+             --primary-color: #edd9cc;
+            --secondary-color: #b8a597;
+            --background-color: #9e122c;
+            --text-color: #2c3e50;
+            --logo-color: #b30000;
+            --pie-chartcolor: #dc2b37;
+            --bar-color: #c82732;
+            --pie-chartcolor2: #ee4a43;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px; 
+            margin: 40px auto;
+            padding: 40px;
+            background: linear-gradient(135deg, #fcecdf 0%, #fcecdf 100%);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            animation: slideIn 0.5s ease-out; 
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--text-color);
+            font-size: 3.5em; 
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin-top: 20px;
+            font-size: 1.5em;
+            color: var(--accent-color); 
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px; 
+            line-height: 1.8; 
+        }
+         .legend-color2 {
+            width: 30px;
+            height: 30px;
+            margin-right: 15px;
+            border-radius: 50%;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+
+        }
+
+        .container > * {
+            opacity: 0;
+            animation: fadeIn 1s ease-out forwards;
+        }
+
+        .container > *:nth-child(1) { animation-delay: 0.2s; }
+        .container > *:nth-child(2) { animation-delay: 0.4s; }
+        .container > *:nth-child(3) { animation-delay: 0.6s; }
+        .container > *:nth-child(4) { animation-delay: 0.8s; }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Keyframes for animations */
+        @keyframes fadeIn {
+            to {
+                opacity: 1; 
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-30px); 
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        
+        .link-button {
+            display: inline-block;
+            background: var(--accent-color);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-align: center;
+            margin: 20px 0;
+            transition: background 0.3s;
+        }
+
+        .link-button:hover {
+            background: #c72e3d; 
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="https://www.unaids.org/en/aboutunaids/unaidscosponsors/who" class="link-button">
+            <h1><b>Ano ang AIDs?</b></h1>
+        </a>
+        <p>Ang AIDS ay isang malubhang sakit na dulot ng HIV virus. Ang HIV ay umaatake sa immune system, na nagpoprotekta sa katawan mula sa mga sakit. Kapag hindi ginagamot ang HIV, maaaring humantong ito sa AIDS. Ang AIDS ay nagpapahina sa immune system, na ginagawa itong mas madaling kapitan sa mga impeksyon. Maaaring maipasa ang AIDS sa pamamagitan ng hindi protektadong pakikipagtalik, pagbabahagi ng mga karayom, o mula sa isang nahawaang ina sa kanyang sanggol. Bagama't walang lunas para sa AIDS, may mga gamot na maaaring makatulong sa pagpabagal ng paglala ng sakit at pagpapabuti ng kalidad ng buhay ng mga taong may HIV.</p>
+         <footer>
+
+            <a href="RA 8504.html">
+                <div class="legend-color2" style="background-color: var(--pie-chartcolor);">next</div></a>
+        </footer>
+    </div>
+    
+</body>
+</html>
